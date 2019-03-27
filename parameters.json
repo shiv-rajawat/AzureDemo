@@ -6,10 +6,10 @@
             "value": "centralus"
         },
         "networkInterfaceName": {
-            "value": "shivgvm530"
+            "value": "shivgvm4549"
         },
         "networkSecurityGroupName": {
-            "value": "shivgvm-nsg"
+            "value": "shivgvm-new-nsg"
         },
         "networkSecurityGroupRules": {
             "value": []
@@ -18,7 +18,7 @@
             "value": "default"
         },
         "virtualNetworkName": {
-            "value": "shiv-g-rg-vnet"
+            "value": "shiv-new-vnet"
         },
         "addressPrefixes": {
             "value": [
@@ -36,7 +36,7 @@
             ]
         },
         "publicIpAddressName": {
-            "value": "shivgvm-ip"
+            "value": "shivgvmip"
         },
         "publicIpAddressType": {
             "value": "Dynamic"
@@ -45,7 +45,7 @@
             "value": "Basic"
         },
         "virtualMachineName": {
-            "value": "shivgvm"
+            "value": "shivgnewvm"
         },
         "virtualMachineRG": {
             "value": "shiv-g-rg"
@@ -57,18 +57,18 @@
             "value": "Standard_D2s_v3"
         },
         "adminUsername": {
-            "value": "windowsvm"
+            "value": "windowsvmnew"
         },
         "adminPassword": {
             "reference" : {
                 "keyVault" : {
                     "id": "/subscriptions/2a07b20e-9cfe-4770-b081-3fda6383b0ef/resourceGroups/shiv-g-rg/providers/Microsoft.KeyVault/vaults/ShivSecretVault"
                 },
-                "secretName": "VMPassword"
+                "secretName": "SecondVMPassword"
             }
         },
         "diagnosticsStorageAccountName": {
-            "value": "shivgrgdiag"
+            "value": "shivgrgdiagnew"
         },
         "diagnosticsStorageAccountId": {
             "value": "Microsoft.Storage/storageAccounts/shivgrgdiag"
